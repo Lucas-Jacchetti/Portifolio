@@ -1,12 +1,13 @@
 
+import Header from './components/header'
 import './index.css'
 function App() {
 
   return (
     <>
-      <header className=''>
-      </header>
-      <body className='bg-sky-600'>
+      <Header />
+      
+      <body className='bg-violet-950'>
         
       </body>
     </>
