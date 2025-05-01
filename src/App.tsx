@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       
-      <body className='bg-violet-950'>
+      <body className='bg-ddarkblue font-futura'>
         
       </body>
     </>

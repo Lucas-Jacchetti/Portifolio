@@ -1,2 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: Futura;
+    src: url(../src/assets/fonts/Futura\ Bold\ font.ttf);
+}
+
+@theme{
+    --font-futura: Futura, "sans-serif";
+    --color-ddarkblue: #0b0026;
+    --color-ddarkbluehover: ;
+}
