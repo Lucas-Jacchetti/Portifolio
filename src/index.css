@@ -6,11 +6,16 @@
     font-family: Futura;
     src: url(../src/assets/fonts/Futura\ Bold\ font.ttf);
 }
+@font-face{
+    font-family: Futuralight;
+    src: url(../src/assets/fonts/futur.ttf);
+}
 
 @theme{
     --font-futura: Futura, "sans-serif";
+    --font-futuralight: Futuralight, "sans-serif";
     --color-ddarkblue: #0b0026;
-    --color-ddarkbluehover: #140045;
+    --color-ddarkbluehover: #5D0972;
     --color-gradientpink: #871069;
     --color-bettergray: #8C8C8C;
 }

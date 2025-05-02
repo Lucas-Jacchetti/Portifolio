@@ -1,7 +1,7 @@
 function Header() {
     return(
         <>
-            <div className="text-white flex flex-row justify-between items-center h-18 text-[26px] font-bold font-futura bg-transparent backdrop-blur-md border-b border-white fixed top-0 w-full">
+            <div className="text-white flex flex-row justify-between items-center h-18 text-[26px] font-bold font-futura bg-transparent backdrop-blur-md border-b border-white fixed top-0 w-full z-20">
                 <div>
                     <div className="m-3.5 ml-10 text-[28px]">Lucas Jacchetti</div>
                 </div>  
