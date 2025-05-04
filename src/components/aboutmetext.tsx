@@ -1,11 +1,11 @@
 function AboutMeText(){
     return(
         <>
-        <div className="flex flex-row items-center justify-baseline">
+        <div className="flex flex-row items-center justify-baseline mt-10">
             <div className="flex flex-col ml-24">
-                <div className="text-white font-bold text-[40px] mt-10">I'm a Software Enginner student.</div>
+                <div className="text-white font-bold text-[35px] mt-10">I'm a Software Enginner student.</div>
                 <div className="text-white font-futura mt-2 text-[20px]"> Currently studying at PUCRS, I have built backend and frontend projects
-                                                                        <br></br> in different languages and frameworks such as Java, SprintBoot and Javascrpt
+                                                                        <br></br> in different languages and frameworks such as Java, SprintBoot and Javascript
                                                                         <br></br> s as d asd as da sd asdsd as das d sa s dasdasda sda sdaa
                 </div>
             </div>

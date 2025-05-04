@@ -17,6 +17,7 @@ function App() {
           <Bar/>
           <Tecnologies/>
           
+          
         </div>
       </body>
     </>
