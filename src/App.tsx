@@ -10,16 +10,17 @@ function App() {
   return (
     <>
       <Header />
-      <body className='font-futura bg-gradient-to-br from-ddarkblue from-25% via-gradientpink to-ddarkblue to-75% h-max w-max'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-[100%]'>
           <Name/>
           <AboutMeText/>
           <Bar/>
           <Tecnologies/>
+          <div className='mt-17'>
+            <Bar/>
+          </div>
           
           
         </div>
-      </body>
     </>
   )
 }

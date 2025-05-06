@@ -27,43 +27,46 @@ function Tecnologies(){
         };
 
         const images: ImageProps[] = [ //array de objetos
-            { src: csslogo, alt: "Image 1", description: "This is the first image." },
-            { src: javalogo, alt: "Image 2", description: "This is the second image." },
-            { src: springlogo, alt: "Image 3", description: "This is the third image." },
-            { src: htmllogo, alt: "Image 3", description: "This is the third image." },
-            { src: reactlogo, alt: "Image 3", description: "This is the third image." },
-            { src: nodelogo, alt: "Image 3", description: "This is the third image." },
-            { src: javascriptlogo, alt: "Image 3", description: "This is the third image." },
-            { src: typelogo, alt: "Image 3", description: "This is the third image." },
-            { src: nestlogo, alt: "Image 3", description: "This is the third image." },
+            { src: csslogo, alt: "css image", description: "This is the first imageas dsad \nad ad sa a sd asd sa da sdsadasd asd as das dasd asdsa das ds ad sa ds." },
+            { src: javalogo, alt: "java image", description: "This is the second image." },
+            { src: springlogo, alt: "spring boot image", description: "This is the third image." },
+            { src: htmllogo, alt: "html image", description: "This is the third image." },
+            { src: reactlogo, alt: "react image", description: "This is the third image." },
+            { src: nodelogo, alt: "nodejs image", description: "This is the third image." },
+            { src: javascriptlogo, alt: "javascript image", description: "This is the third image." },
+            { src: typelogo, alt: "typescript image", description: "This is the third image." },
+            { src: nestlogo, alt: "nesjs image", description: "This is the third image." },
         ];
     
-    return(
+    return( 
         <>
-        <div className='flex flex-col ml-24'>
+        
+        
+
+        <div className='flex flex-col bg-amber-600 ml-24 max-w-screen overflow-hidden'>
             <div className="text-white font-bold text-[60px] mt-25">Tecnologies</div>
 
-            <div className='flex flex-row mt-15 ml-10'>
-                <div className="grid grid-cols-3 gap-16">
+            <div className='flex flex-row mt-15 bg-green-500 ml-10 w-full max-w-[1000px]'>
+                <div className="grid grid-cols-3 gap-11">
                     {images.map((image, index) => (
                     <img
                     key={index}
                     src={image.src}
                     alt={image.alt}
-                    className="w-26 h-26 cursor-pointer transition-transform transform hover:scale-105"
+                    className="w-23 h-23 cursor-pointer transition-transform transform hover:scale-105"
                     onClick={() => setSelectedImage(image)}/> //atualiza o estado de selectedImage com o objeto da imagem clicada
                     ))}
                 </div>
                 {selectedImage && (
-                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row">
+                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row ">
                         <img src={selectedImage.src} alt={selectedImage.alt} className="w-65 h-65 mb-4" />
-                        <p className="text-lg text-white">{selectedImage.description}</p>
+                        <p className="text-lg text-white text-wrap">{selectedImage.description}</p>
                     </div>  
                 )}
                 {!selectedImage &&( //caso for nulo, exibe a imagem e descrição padrão
                     <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row">
                         <img src={defaultImage.src} alt={defaultImage.alt} className="w-65 h-65 mb-4" />
-                        <p className="text-lg text-white">{defaultImage.description}</p>
+                        <p className="text-lg text-white text-wrap">{defaultImage.description}</p>
                     </div>
                 )}
             </div>
