@@ -43,10 +43,10 @@ function Tecnologies(){
         
         
 
-        <div className='flex flex-col bg-amber-600 ml-24 max-w-screen overflow-hidden'>
+        <div className='flex flex-col bg-amber-600 ml-24 max-w-screen overflow-hidden '>
             <div className="text-white font-bold text-[60px] mt-25">Tecnologies</div>
 
-            <div className='flex flex-row mt-15 bg-green-500 ml-10 w-full max-w-[1000px]'>
+            <div className='flex flex-row mt-15 bg-green-500 ml-10 w-full max-w-[1000px] flex-shrink-0'>
                 <div className="grid grid-cols-3 gap-11">
                     {images.map((image, index) => (
                     <img
@@ -58,13 +58,13 @@ function Tecnologies(){
                     ))}
                 </div>
                 {selectedImage && (
-                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row ">
+                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row w-[500px]">
                         <img src={selectedImage.src} alt={selectedImage.alt} className="w-65 h-65 mb-4" />
-                        <p className="text-lg text-white text-wrap">{selectedImage.description}</p>
+                        <p className="text-lg text-white text-wrap ml-4 ">{selectedImage.description}</p>
                     </div>  
                 )}
                 {!selectedImage &&( //caso for nulo, exibe a imagem e descrição padrão
-                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row">
+                    <div className=" ml-20 p-4 rounded-lg items-center justify-center flex flex-row w-[500px]">
                         <img src={defaultImage.src} alt={defaultImage.alt} className="w-65 h-65 mb-4" />
                         <p className="text-lg text-white text-wrap">{defaultImage.description}</p>
                     </div>
