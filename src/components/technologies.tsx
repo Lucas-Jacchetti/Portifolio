@@ -27,8 +27,8 @@ function Tecnologies(){
         };
 
         const images: ImageProps[] = [ //array de objetos
-            { src: csslogo, alt: "css image", description: "This is the first imageas dsad \nad ad sa a sd asd sa da sdsadasd asd as das dasd asdsa das ds ad sa ds." },
-            { src: javalogo, alt: "java image", description: "This is the second image." },
+            { src: csslogo, alt: "css image", description: "CSS is a styling tecnology commonly used with HTML to make responsive web designs!" },
+            { src: javalogo, alt: "java image", description: "Java is a widely used programming language for a variety of applications, specially backend." },
             { src: springlogo, alt: "spring boot image", description: "This is the third image." },
             { src: htmllogo, alt: "html image", description: "This is the third image." },
             { src: reactlogo, alt: "react image", description: "This is the third image." },
@@ -43,17 +43,17 @@ function Tecnologies(){
         
         
 
-        <div className='flex flex-col bg-amber-600 ml-24 max-w-screen overflow-hidden '>
+        <div className='flex flex-col ml-24 max-w-screen overflow-hidden '>
             <div className="text-white font-bold text-[60px] mt-25">Tecnologies</div>
 
-            <div className='flex flex-row mt-15 bg-green-500 ml-10 w-full max-w-[1000px] flex-shrink-0'>
+            <div className='flex flex-row mt-15 ml-10 w-full max-w-[1000px] flex-shrink-0'>
                 <div className="grid grid-cols-3 gap-11">
                     {images.map((image, index) => (
                     <img
                     key={index}
                     src={image.src}
                     alt={image.alt}
-                    className="w-23 h-23 cursor-pointer transition-transform transform hover:scale-105"
+                    className="w-25 h-25 cursor-pointer transition-transform transform hover:scale-105 bg-transparent backdrop-blur-3xl rounded-2xl p-2"
                     onClick={() => setSelectedImage(image)}/> //atualiza o estado de selectedImage com o objeto da imagem clicada
                     ))}
                 </div>

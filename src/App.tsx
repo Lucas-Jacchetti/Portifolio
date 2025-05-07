@@ -3,6 +3,7 @@ import AboutMeText from './components/aboutmetext'
 import Bar from './components/bar'
 import Header from './components/header'
 import Name from './components/name'
+import Projects from './components/projects'
 import Tecnologies from './components/technologies'
 import './index.css'
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <div className='mt-17'>
             <Bar/>
           </div>
+          <Projects/>
           
           
         </div>
