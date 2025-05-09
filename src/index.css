@@ -2,12 +2,7 @@
 @import "./node_modules/preline/variants.css";
 @plugin "tailwindcss-motion";
 
-@layer base {
-    button:not(:disabled),
-    [role="button"]:not(:disabled) {
-        cursor: pointer;
-    }
-}
+
 
 @custom-variant hover (&:hover);
 
@@ -27,6 +22,8 @@
     --color-ddarkbluehover: #5D0972;
     --color-gradientpink: #871069;
     --color-bettergray: #8C8C8C;
+    --color-darkpurple: #050006;
+    --color-darkblue: #00044C;
 }
 
 body{

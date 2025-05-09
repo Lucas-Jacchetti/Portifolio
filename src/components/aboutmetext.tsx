@@ -1,15 +1,14 @@
+import me from '../assets/logos/WhatsApp Image 2025-05-09 at 00.12.57.jpeg'
+
 function AboutMeText(){
     return(
         <>
         <div className="flex flex-row items-center justify-baseline mt-10">
             <div className="flex flex-col ml-24">
                 <div className="text-white font-bold text-[35px] mt-10">I'm a Software Enginner student.</div>
-                <div className="text-white font-futura mt-2 text-[20px]"> Currently studying at PUCRS, I have built backend and frontend projects
-                                                                        <br></br> in different languages and frameworks such as Java, SprintBoot and Javascript
-                                                                        <br></br> s as d asd as da sd asdsd as das d sa s dasdasda sda sdaa
-                </div>
+                <div className="text-white font-futura mt-2 text-[20px] w-[500px] text-wrap"> Currently studying at PUCRS, I have built backend and frontend projects in different tecnologies, such as Javascript, Java, and it's frameworks and libraries. I'm always up to new challenges and experiences, constantly trying to improve myself.</div>
             </div>
-            <div className="h-50 w-40 bg-white mt-30 ml-50" ></div>
+            <img src={me} alt="myself" className='w-60 h-80 ml-50 mt-30' />
         </div>
         </>
     );

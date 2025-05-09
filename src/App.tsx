@@ -18,7 +18,6 @@ function App() {
 
   };
 
-  // Scroll function that takes a section key
   const scrollToSection = (section: keyof typeof sectionRefs) => {
     sectionRefs[section].current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -38,7 +37,7 @@ function App() {
             <Tecnologies/>
           </section>
 
-          <div>
+          <div className='mt-15'>
             <Bar/>
           </div>
 
