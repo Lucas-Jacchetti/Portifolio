@@ -56,13 +56,13 @@ function Tecnologies(){
                     ))}
                 </div>          
                 {selectedImage && (
-                    <div className="absolute right-50 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]" >
+                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]" >
                         <img src={selectedImage.src} alt={selectedImage.alt} className="w-65 h-65 mb-4" />
                         <p className="text-2xl text-white text-wrap ml-4 ">{selectedImage.description}</p>
                     </div>  
                 )}
                 {!selectedImage &&( //caso for nulo, exibe a imagem e descrição padrão
-                    <div className="absolute right-25 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]">
+                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]">
                         <img src={defaultImage.src} alt={defaultImage.alt} className="w-65 h-65 mb-4 drop-shadow-2xl/100" />
                         <p className="text-2xl text-white text-wrap ml-4">{defaultImage.description}</p>
                     </div>
