@@ -20,7 +20,7 @@ function Projects(){
                         </div>
                     </a>
 
-                    <a href="https://github.com/Lucas-Jacchetti/Projeto-Calculadora-JS" target='blank'>
+                    <a href="https://projeto-calculadora-js-mocha.vercel.app" target='blank'>
                         <div className=" relative group h-40 w-80 text-yellow-400 hover:text-black bg-darkpurple hover:bg-yellow-500 shadow-2xl/100 justify-center items-center flex flex-row gap-2.5 rounded-2xl hover:scale-107 cursor-pointer transition-transform transform">
                             <img src={calculator} alt="spring boot logo" className=' absolute w-35 h-35 group-hover:hidden mr-30' />
                             <img src={calculator} alt="spring boot logo" className='w-35 h-35 hidden group-hover:block' />
