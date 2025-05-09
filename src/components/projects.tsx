@@ -56,7 +56,7 @@ function Projects(){
                         </div>
                     </a>
 
-                    <a href="https://github.com/Lucas-Jacchetti/CRUD-filmes" target='blank'>
+                    <a href="https://climateapp-ecru.vercel.app" target='blank'>
                         <div className=" relative group h-40 w-80 text-yellow-300 hover:text-black bg-darkpurple hover:bg-yellow-200 shadow-2xl/100 justify-center items-center flex flex-row gap-2.5 rounded-2xl hover:scale-107 cursor-pointer transition-transform transform">
                             <img src={javascriptlogo} alt="spring boot logo" className=' absolute w-20 h-20 group-hover:hidden mr-40' />
                             <img src={javascriptlogo} alt="spring boot logo" className='w-20 h-20 group-hover:block ml-10 hidden' />

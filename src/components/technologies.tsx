@@ -42,9 +42,9 @@ function Tecnologies(){
     return( 
         <> 
         <div className='flex flex-col ml-24 max-w-screen overflow-hidden '>
-            <div className="text-white font-bold text-[60px] mt-25">Tecnologies</div> 
+            <div className="text-white font-bold text-6xl mt-25">Tecnologies</div> 
 
-            <div className='flex flex-row mt-15 ml-20 w-full max-w-[1000px] flex-shrink-0'>
+            <div className='flex flex-row mt-15 ml-20 w-full max-w-[62.5rem] flex-shrink-0'>
                 <div className="grid grid-cols-3 gap-11">
                     {images.map((image, index) => (
                     <img
@@ -56,13 +56,13 @@ function Tecnologies(){
                     ))}
                 </div>          
                 {selectedImage && (
-                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]" >
+                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[34.4rem]" >
                         <img src={selectedImage.src} alt={selectedImage.alt} className="w-65 h-65 mb-4" />
                         <p className="text-2xl text-white text-wrap ml-4 ">{selectedImage.description}</p>
                     </div>  
                 )}
                 {!selectedImage &&( //caso for nulo, exibe a imagem e descrição padrão
-                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[550px]">
+                    <div className="absolute right-20 top-341 p-4 rounded-lg items-center justify-center flex flex-row w-[34.4rem]">
                         <img src={defaultImage.src} alt={defaultImage.alt} className="w-65 h-65 mb-4 drop-shadow-2xl/100" />
                         <p className="text-2xl text-white text-wrap ml-4">{defaultImage.description}</p>
                     </div>
