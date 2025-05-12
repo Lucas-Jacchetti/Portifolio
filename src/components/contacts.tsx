@@ -11,7 +11,7 @@ function Contacts(){
                 <img src={githublogo} alt="img" className="h-15 w-15 cursor-pointer hover:scale-115 transition-transform transform"/>
             </a>
             <a href="mailto:lucas.jacchetti@gmail.com" >
-                <img src={emaillogo} alt="img" className="h-15 w-15 cursor-pointer hover:scale-115 transition-transform transform"/>
+                <img src={emaillogo} alt="img" className="h-15 w-18 cursor-pointer hover:scale-115 transition-transform transform"/>
             </a>
             <a href="https://www.linkedin.com/in/lucas-jacc-8a7b02355/" target="_blank">
                 <img src={linkedinlogo} alt="img" className="h-15 w-15 cursor-pointer hover:scale-115 transition-transform transform"/>
