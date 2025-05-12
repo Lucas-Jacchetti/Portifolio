@@ -24,7 +24,7 @@ function Tecnologies(){
             src: defaultimg,
             alt: "Imagem Padrão",
             description:
-            "Click on the tecnologies for more detail!",
+            "Click on the technology for more detail!",
         };
 
         const images: ImageProps[] = [ //array de objetos
