@@ -42,7 +42,7 @@ function Tecnologies(){
     return( 
         <> 
         <div className='flex flex-col ml-24 max-w-screen overflow-hidden '>
-            <div className="text-white font-bold text-6xl mt-25">Tecnologies</div> 
+            <div className="text-white font-bold text-6xl mt-25">Technologies</div> 
 
             <div className='flex flex-row mt-15 ml-20 w-full max-w-[62.5rem] flex-shrink-0'>
                 <div className="grid grid-cols-3 gap-11">
