@@ -1,6 +1,6 @@
-import githublogo from "../assets/logos/icons8-github-60.svg"
-import linkedinlogo from "../assets/logos/icons8-linkedin.svg"
-import emaillogo from "../assets/logos/icons8-email-60.png"
+import githublogo from "../assets/logos/icons8-github.svg"
+import linkedinlogo from "../assets/logos/linkedin-app-white-icon.svg"
+import emaillogo from "../assets/logos/6ak2vv6kr512hip8ndktntij5p.png"
 
 
 function Contacts(){
